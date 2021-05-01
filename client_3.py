@@ -57,7 +57,7 @@ def show_frame():
     imgtk = update_image()
     lmain.imgtk = imgtk
     lmain.configure(image=imgtk)
-    lmain.after(100, show_frame)
+    lmain.after(50, show_frame)
 
 
 def close_connection():
